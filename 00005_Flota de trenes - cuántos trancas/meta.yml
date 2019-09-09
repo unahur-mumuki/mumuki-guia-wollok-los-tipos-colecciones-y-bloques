@@ -1,0 +1,22 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Una colección de trenes
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Un tren
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Un número
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Un booleano
+  checked: false
+name: Flota de trenes - cuántos trancas

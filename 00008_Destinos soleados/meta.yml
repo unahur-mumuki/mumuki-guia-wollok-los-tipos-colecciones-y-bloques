@@ -1,0 +1,58 @@
+---
+tags: []
+layout: input_right
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.destinosSoleados() + 1`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.destinosSoleados().size() + 1`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.destinosSoleados() and agencia.tieneDestinosCopados()`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.destinosSoleados().cantidadMuseos()`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.unDestinoSoleado() + 1`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.unDestinoSoleado().size() + 1`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.unDestinoSoleado() and agencia.tieneDestinosCopados()`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.unDestinoSoleado().cantidadMuseos()`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.muchoSol() + 1`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.muchoSol().size() + 1`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.muchoSol() and agencia.tieneDestinosCopados()`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.muchoSol().cantidadMuseos()`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.totalMuseos() + 1`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.totalMuseos().size() + 1`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.totalMuseos() and agencia.tieneDestinosCopados()`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`agencia.totalMuseos().cantidadMuseos()`"
+  checked: false
+name: Destinos soleados
